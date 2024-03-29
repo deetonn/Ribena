@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ribena", "Ribena\Ribena.csproj", "{446FF7D6-D2CE-4930-B7C8-CAD7DD4DA5A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ribena.App", "Ribena.App\Ribena.App.csproj", "{347C8B1B-2F3D-4A9B-A06C-4C095B9A3CC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{E03F9AFD-EA32-421C-8892-855A8EB3ED44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ribena.DefaultModule", "Ribena.DefaultModule\Ribena.DefaultModule.csproj", "{1A9910AC-8C1B-4132-AC47-70308E201BB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ribena.PackageRegistry", "Ribena.PackageRegistry\Ribena.PackageRegistry.csproj", "{AC5E6719-A460-4D1E-9982-0614F6C202C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E09A650-7D61-426A-8F15-559F805D5B54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ribena.Troubleshooter", "Ribena.Troubleshooter\Ribena.Troubleshooter.csproj", "{3FE25603-33EF-4599-9F5A-6219576A39B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{446FF7D6-D2CE-4930-B7C8-CAD7DD4DA5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{446FF7D6-D2CE-4930-B7C8-CAD7DD4DA5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{446FF7D6-D2CE-4930-B7C8-CAD7DD4DA5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{446FF7D6-D2CE-4930-B7C8-CAD7DD4DA5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347C8B1B-2F3D-4A9B-A06C-4C095B9A3CC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347C8B1B-2F3D-4A9B-A06C-4C095B9A3CC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347C8B1B-2F3D-4A9B-A06C-4C095B9A3CC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347C8B1B-2F3D-4A9B-A06C-4C095B9A3CC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9910AC-8C1B-4132-AC47-70308E201BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9910AC-8C1B-4132-AC47-70308E201BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9910AC-8C1B-4132-AC47-70308E201BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9910AC-8C1B-4132-AC47-70308E201BB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5E6719-A460-4D1E-9982-0614F6C202C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5E6719-A460-4D1E-9982-0614F6C202C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5E6719-A460-4D1E-9982-0614F6C202C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5E6719-A460-4D1E-9982-0614F6C202C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE25603-33EF-4599-9F5A-6219576A39B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE25603-33EF-4599-9F5A-6219576A39B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE25603-33EF-4599-9F5A-6219576A39B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE25603-33EF-4599-9F5A-6219576A39B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1A9910AC-8C1B-4132-AC47-70308E201BB1} = {E03F9AFD-EA32-421C-8892-855A8EB3ED44}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC93D23B-7ABF-46F4-A302-294607DA1533}
+	EndGlobalSection
+EndGlobal
